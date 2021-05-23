@@ -23,7 +23,7 @@ for:
     xor AX, AX
     mov AL, [BP+SI] 
 	inc SI
-    mov CH, AL ; DL == AL
+    mov CH, AL 
 	div CL  
     cmp AH, 0
 	JE par
