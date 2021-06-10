@@ -58,8 +58,8 @@ org 100h
         INC SI 
         INC DL 
         INC DI 
-        CMP DI, 5d 
-        JB IT4 ; si DI es menor a 5, entonces que siga iterando.
+        CMP DI, 6d 
+        JB IT4 ; si DI es menor a 6, entonces que siga iterando.
         jmp esperartecla 
 
         sup:
@@ -98,4 +98,4 @@ org 100h
 
     section .data
 
-    cadena DB 'Francisco Orlando Rodriguez Chica'
+    cadena DB 'Francisco Orlando Rodriguez Chica '
